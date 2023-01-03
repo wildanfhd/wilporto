@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-lg">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand fw-bold fs-4" href="<?= site_url('porto/home')?>">WIL</a>
+                <a class="navbar-brand fw-bold fs-4 mx-3" href="<?= site_url('porto/home')?>">WIL</a>
                 <!-- Toggle responsive navbar-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
