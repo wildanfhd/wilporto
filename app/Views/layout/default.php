@@ -32,5 +32,9 @@
         <!--Main Content-->
         <?= $this->renderSection('content')?>
         <!--End Main Content-->
+
+        <!-- FOOTBAR -->
+        <?= $this->include('layout/footer') ?>
+        <!--END FOOTBAR -->
 </body>
 </html>
