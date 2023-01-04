@@ -1,6 +1,7 @@
 body {
-  background-color: #e0eaf4;
+  background-color: #f2f1ef;
   font-family: "Bai Jamjuree", sans-serif;
+  padding-top: 32px;
 }
 
 /** ==== NAVBAR ==== */
@@ -15,5 +16,28 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover {
+  color: #e64d33;
+}
+
+.navbar-custom {
+  background-color: #f2f1ef;
+}
+
+/** ==== FOOTER ==== */
+footer {
+  background-color: #0d2237;
+}
+
+.footer-nav .foot-link {
+  color: #f2f1ef;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.foot-link {
+  text-decoration: none;
+}
+
+.foot-link:hover {
   color: #e64d33;
 }
